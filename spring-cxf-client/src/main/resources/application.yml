@@ -1,0 +1,7 @@
+server:
+  port: 6060
+  service:
+    keystore-alias: webclient
+    address: https://localhost:8080/ws/user
+    trust-store: classpath:jks/webclient.p12
+    trust-store-password: ouyushan.pass

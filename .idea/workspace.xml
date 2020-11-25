@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="spring-ws-cxf-client" />
+      <module name="spring-ws-cxf-server" />
+      <module name="spring-ws-samples" />
+      <module name="spring-ws-cxf-client (1)" />
+      <module name="spring-ws-cxf-client (2)" />
+      <module name="spring-ws-client" />
+      <module name="spring-ws-server" />
+    </loaded-modules>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76e3f41a-3f5d-4cfc-b494-8719b9133548" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="04745f37-82fc-492d-b6db-bcab4653c4c9" />
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="50ltqix0" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Programs\apache\maven\apache-maven-repository" />
+        <option name="mavenHome" value="C:\Users\yangyangllei\.m2\wrapper\dists\apache-maven-3.5.4-bin\4lcg54ki11c6mp435njk296gm5\apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Programs\apache\maven\apache-maven-3.6.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ifuu211AvTr9KxmphJcdnKZAHz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cxf-client/src/main/resources" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-server\src\main\resources\jks" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ouyushan.cxf.client.component" />
+      <recent name="org.ouyushan.cxf.server.component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-client\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-server\src\main\resources\jks" />
+      <recent name="D:\WorkSpace\Idea\gitee\spring-ws-samples\spring-ws-cxf-server\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\gitee\spring-ws-samples\spring-ws-cxf-client\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\gitee\spring-ws-samples\spring-ws-cxf-client\src\main\java\org\ouyushan\cxf\ws" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringCxfClientApplication">
+    <configuration name="SpringCxfClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.client.SpringCxfClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.server.SpringCxfServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringWsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-ws-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.ws.client.SpringWsClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringWsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-ws-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.ws.server.SpringWsServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76e3f41a-3f5d-4cfc-b494-8719b9133548" name="Default Changelist" comment="" />
+      <created>1602311186555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602311186555</updated>
+      <workItem from="1602311191668" duration="11738000" />
+      <workItem from="1602466902675" duration="1523000" />
+      <workItem from="1602575640617" duration="3905000" />
+      <workItem from="1602583685748" duration="4182000" />
+      <workItem from="1602749886338" duration="334000" />
+      <workItem from="1602816801434" duration="8387000" />
+      <workItem from="1602830911800" duration="6385000" />
+      <workItem from="1603165237607" duration="17000" />
+      <workItem from="1604460206322" duration="9141000" />
+      <workItem from="1604474308739" duration="18635000" />
+      <workItem from="1604493159964" duration="25000" />
+      <workItem from="1604493200652" duration="80000" />
+      <workItem from="1604493301461" duration="1637000" />
+      <workItem from="1604542102781" duration="31245000" />
+      <workItem from="1604577791956" duration="3975000" />
+      <workItem from="1604636472224" duration="4222000" />
+      <workItem from="1604644861482" duration="2488000" />
+      <workItem from="1604650870103" duration="6524000" />
+      <workItem from="1604714185566" duration="11897000" />
+      <workItem from="1604797018427" duration="7493000" />
+      <workItem from="1604817004941" duration="7000" />
+      <workItem from="1604817554407" duration="1393000" />
+      <workItem from="1604886302091" duration="38000" />
+      <workItem from="1604889601603" duration="2432000" />
+      <workItem from="1604892323844" duration="6506000" />
+      <workItem from="1604907353364" duration="7302000" />
+      <workItem from="1604970614469" duration="2406000" />
+      <workItem from="1604991408648" duration="2909000" />
+      <workItem from="1605147705081" duration="288000" />
+      <workItem from="1605148125754" duration="2714000" />
+      <workItem from="1606180897033" duration="2155000" />
+      <workItem from="1606185142390" duration="8640000" />
+      <workItem from="1606199662482" duration="12148000" />
+      <workItem from="1606266932585" duration="940000" />
+      <workItem from="1606268049108" duration="1130000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="842" y="382" key="#Notifications" timestamp="1602579307757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="842" y="382" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1602579307757" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1604893160658">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604893160658" />
+    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606180929483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606180929483" />
+    <state x="628" y="348" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604564459169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="348" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604564459169" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1604992612347">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604992612347" />
+    <state x="559" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604751830332">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="559" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604751830332" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604750513851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604750513851" />
+    <state width="1017" height="466" key="DebuggerActiveHint" timestamp="1604909445462">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1017" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1604909445462" />
+    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl" timestamp="1604818329058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604818329058" />
+    <state width="1657" height="431" key="GridCell.Tab.0.bottom" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.0.center" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472920" />
+    <state width="1657" height="431" key="GridCell.Tab.0.left" timestamp="1606212472920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472920" />
+    <state width="1657" height="431" key="GridCell.Tab.0.right" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.1.bottom" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.1.center" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.1.left" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.1.right" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.2.bottom" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.2.center" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.2.left" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state width="1657" height="431" key="GridCell.Tab.2.right" timestamp="1606212472921">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1657" height="431" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606212472921" />
+    <state x="468" y="160" key="Maven.ArtifactSearchDialog" timestamp="1604491932668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="468" y="160" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604491932668" />
+    <state x="752" y="223" key="NewModule_or_Project.wizard" timestamp="1604477883290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="752" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604477883290" />
+    <state x="496" y="138" key="SettingsEditor" timestamp="1604908852861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="138" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604908852861" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1604487886034">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1604487886034" />
+    <state x="151" y="149" width="1548" height="758" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606204463153">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="151" y="149" width="1548" height="758" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606204463153" />
+    <state x="471" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604575699682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="471" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604575699682" />
+    <state x="483" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604912772965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1604912772965" />
+    <state x="744" y="251" width="979" height="751" key="find.popup" timestamp="1606188165636">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="251" width="979" height="751" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606188165636" />
+    <state x="485" y="292" key="git4idea.merge.GitPullDialog" timestamp="1602578115363">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="485" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602578115363" />
+    <state x="848" y="523" key="scopes" timestamp="1604895298923">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="848" y="523" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1604895298923" />
+    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup" timestamp="1606200196381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606200196381" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/provider/certpath/SunCertPathBuilder.class</url>
+          <line>139</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/provider/certpath/SunCertPathBuilder.class</url>
+          <line>109</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/security/cert/CertPathBuilder.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
+          <line>305</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
+          <line>182</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
+          <line>216</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
+          <line>295</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/X509TrustManagerImpl.class</url>
+          <line>65</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/X509TrustManagerImpl.class</url>
+          <line>87</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/CertificateMessage.class</url>
+          <line>701</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/CertificateMessage.class</url>
+          <line>111</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/CertificateMessage.class</url>
+          <line>578</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
+          <line>307</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/provider/certpath/SunCertPathBuilder.class</url>
+          <line>53</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Programs/apache/maven/apache-maven-repository/org/apache/cxf/cxf-rt-transports-http/3.4.0/cxf-rt-transports-http-3.4.0-sources.jar!/org/apache/cxf/transport/https/httpclient/DefaultHostnameVerifier.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.security.cert.CertificateFactory" memberName="certFacSpi" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

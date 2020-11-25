@@ -1,0 +1,12 @@
+server:
+  port: 7070
+
+client:
+  default-uri: https://127.0.0.1:8000/ws/user
+  signature:
+    key-store: classpath:cert/webclient.p12
+    key-store-password: Huabei.zdh2019
+    key-password: Huabei.zdh2019
+    key-alias: webclient
+    trust-store: classpath:cert/webclient.p12
+    trust-store-password: Huabei.zdh2019

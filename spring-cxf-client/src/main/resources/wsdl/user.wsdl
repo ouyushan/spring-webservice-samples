@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://ws.cxf.ouyushan.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="UserService" targetNamespace="http://ws.cxf.ouyushan.org/">
+   <wsdl:types>
+      <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.cxf.ouyushan.org/" elementFormDefault="unqualified" targetNamespace="http://ws.cxf.ouyushan.org/" version="1.0">
+         <xs:element name="getUser" type="tns:getUser"/>
+         <xs:element name="getUserList" type="tns:getUserList"/>
+         <xs:element name="getUserListResponse" type="tns:getUserListResponse"/>
+         <xs:element name="getUserName" type="tns:getUserName"/>
+         <xs:element name="getUserNameResponse" type="tns:getUserNameResponse"/>
+         <xs:element name="getUserResponse" type="tns:getUserResponse"/>
+         <xs:complexType name="getUserList">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="userId" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="getUserListResponse">
+            <xs:sequence>
+               <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:user"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="user">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="email" type="xs:string"/>
+               <xs:element minOccurs="0" name="userId" type="xs:string"/>
+               <xs:element minOccurs="0" name="userName" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="getUserName">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="userId" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="getUserNameResponse">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="return" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="getUser">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="userId" type="xs:string"/>
+            </xs:sequence>
+         </xs:complexType>
+         <xs:complexType name="getUserResponse">
+            <xs:sequence>
+               <xs:element minOccurs="0" name="return" type="tns:user"/>
+            </xs:sequence>
+         </xs:complexType>
+      </xs:schema>
+   </wsdl:types>
+   <wsdl:message name="getUserResponse">
+      <wsdl:part element="tns:getUserResponse" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:message name="getUser">
+      <wsdl:part element="tns:getUser" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:message name="getUserNameResponse">
+      <wsdl:part element="tns:getUserNameResponse" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:message name="getUserList">
+      <wsdl:part element="tns:getUserList" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:message name="getUserName">
+      <wsdl:part element="tns:getUserName" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:message name="getUserListResponse">
+      <wsdl:part element="tns:getUserListResponse" name="parameters"> </wsdl:part>
+   </wsdl:message>
+   <wsdl:portType name="UserService">
+      <wsdl:operation name="getUserList">
+         <wsdl:input message="tns:getUserList" name="getUserList"> </wsdl:input>
+         <wsdl:output message="tns:getUserListResponse" name="getUserListResponse"> </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="getUserName">
+         <wsdl:input message="tns:getUserName" name="getUserName"> </wsdl:input>
+         <wsdl:output message="tns:getUserNameResponse" name="getUserNameResponse"> </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="getUser">
+         <wsdl:input message="tns:getUser" name="getUser"> </wsdl:input>
+         <wsdl:output message="tns:getUserResponse" name="getUserResponse"> </wsdl:output>
+      </wsdl:operation>
+   </wsdl:portType>
+   <wsdl:binding name="UserServiceSoapBinding" type="tns:UserService">
+      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+      <wsdl:operation name="getUserList">
+         <soap:operation soapAction="" style="document"/>
+         <wsdl:input name="getUserList">
+            <soap:body use="literal"/>
+         </wsdl:input>
+         <wsdl:output name="getUserListResponse">
+            <soap:body use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="getUserName">
+         <soap:operation soapAction="" style="document"/>
+         <wsdl:input name="getUserName">
+            <soap:body use="literal"/>
+         </wsdl:input>
+         <wsdl:output name="getUserNameResponse">
+            <soap:body use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+      <wsdl:operation name="getUser">
+         <soap:operation soapAction="" style="document"/>
+         <wsdl:input name="getUser">
+            <soap:body use="literal"/>
+         </wsdl:input>
+         <wsdl:output name="getUserResponse">
+            <soap:body use="literal"/>
+         </wsdl:output>
+      </wsdl:operation>
+   </wsdl:binding>
+   <wsdl:service name="UserService">
+      <wsdl:port binding="tns:UserServiceSoapBinding" name="UserServiceImplPort">
+         <soap:address location="http://localhost:8080/ws/user"/>
+      </wsdl:port>
+   </wsdl:service>
+</wsdl:definitions>

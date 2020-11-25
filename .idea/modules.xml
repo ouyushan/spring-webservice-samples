@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-client/spring-cxf-client.iml" filepath="$PROJECT_DIR$/spring-cxf-client/spring-cxf-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-server/spring-cxf-server.iml" filepath="$PROJECT_DIR$/spring-cxf-server/spring-cxf-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-webservice-samples.iml" filepath="$PROJECT_DIR$/.idea/spring-webservice-samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ws-client/spring-ws-client.iml" filepath="$PROJECT_DIR$/spring-ws-client/spring-ws-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ws-server/spring-ws-server.iml" filepath="$PROJECT_DIR$/spring-ws-server/spring-ws-server.iml" />
+    </modules>
+  </component>
+</project>

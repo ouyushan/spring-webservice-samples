@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.ouyushan</groupId>
+	<artifactId>spring-webservice-samples</artifactId>
+	<version>1.0.0.BUILD-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>Spring Web Services Samples</name>
+
+	<inceptionYear>2020</inceptionYear>
+
+	<modules>
+		<module>spring-cxf-client</module>
+		<module>spring-cxf-server</module>
+		<module>spring-ws-client</module>
+		<module>spring-ws-server</module>
+	</modules>
+
+</project>
