@@ -16,6 +16,8 @@
     <modules>
         <module>spring-cxf-client-begin</module>
         <module>spring-cxf-server-begin</module>
+        <module>spring-cxf-client-logging</module>
+        <module>spring-cxf-server-logging</module>
     </modules>
 
 </project>

@@ -3,7 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/spring-cxf-client-begin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-client-begin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cxf-client-logging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-begin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cxf-server-logging/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -40,216 +40,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e3f41a-3f5d-4cfc-b494-8719b9133548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-begin/src/main/resources/wsdl/user.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_features_logging_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/resources/wsdl/user.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/SpringCxfServerLoggingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_74.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_messaging_saaj_saaj_impl_1_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_jws_jakarta_jws_api_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_soap_jakarta_xml_soap_api_1_4_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_ws_jakarta_xml_ws_api_2_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_ehcache_ehcache_2_10_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_shibboleth_utilities_java_support_7_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_shibboleth_utilities_java_support_7_5_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_features_logging_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_saml_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_security_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_javamail_geronimo_javamail_1_4_mail_1_8_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_2_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_bindings_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_policy_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_common_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_common_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_dom_2_2_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_dom_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_policy_stax_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_stax_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_54.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_cryptacular_cryptacular_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_cryptacular_cryptacular_1_2_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_core_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_core_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_profile_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_profile_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_impl_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_impl_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_impl_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_impl_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_soap_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_soap_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_impl_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_impl_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_impl_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_impl_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_api_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_api_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_impl_3_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_impl_3_4_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_services_2_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jms_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_core_3_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_security_3_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_ws_support_3_0_10_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ws_spring_xml_3_0_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/SpringCxfClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/api/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/component/ClientPasswordCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/config/CustomHostnameVerifier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/config/CxfClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/client/service/UserFacadeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/java/org/ouyushan/cxf/ws/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/client_key.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/client_trust.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/jks/keytool -genkey -alias webclient -keypas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/jks/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/jks/webclient.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/jks/webserver.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-client/src/main/resources/wsdl/user.wsdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/SpringCxfServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/component/ServerPasswordCallback.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/config/CxfServerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/entity/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/java/org/ouyushan/cxf/server/service/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/jks/keytool -genkey -alias webclient -keypas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/jks/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/jks/webclient.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/jks/webserver.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/server_key.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server/src/main/resources/server_trust.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/SpringWsClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/api/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/config/WsClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/service/UserClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetAllUserData.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetAllUserDataResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetUserName.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetUserNameResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/GetUserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/ObjectFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/UserService_Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/java/org/ouyushan/ws/client/ws/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/cert/keytool -genkey -alias webclient -keypas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/cert/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/cert/webclient.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/cert/webserver.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/jks/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/jks/webclient.truststore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/jks/webclient1.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-client/src/main/resources/wsdl/user.wsdl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/java/org/ouyushan/ws/server/SpringWsServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/java/org/ouyushan/ws/server/api/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/cert/keytool -genkey -alias webclient -keypas.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/cert/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/cert/webclient.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/cert/webserver.keystore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/jks/webclient.cer" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/jks/webclient.truststore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/jks/webclient1.p12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ws-server/src/main/resources/wsdl/user.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,7 +126,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cxf-client-begin/src/main/java/org/ouyushan/cxf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cxf-server-logging/src/main/resources" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -313,11 +135,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-logging\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-logging\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-logging\src\main\java\org\ouyushan\cxf" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-logging\src\main\java\org\ouyushan\cxf" />
       <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-begin\src\main\java\org\ouyushan\cxf" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-begin\src\main\java\org\ouyushan\spring\cxf" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-ws-server\src\main\resources\wsdl" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-client\src\main\resources" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-server\src\main\resources\jks" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.ouyushan.spring.cxf.entity" />
@@ -335,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringCxfClientBeginApplication">
+  <component name="RunManager" selected="Application.SpringCxfClientLoggingApplication">
     <configuration name="SpringCxfClientBeginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfClientBeginApplication" />
       <module name="spring-cxf-client-begin" />
@@ -349,9 +171,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCxfClientLoggingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfClientLoggingApplication" />
+      <module name="spring-cxf-client-logging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ouyushan.cxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCxfServerBeginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfServerBeginApplication" />
       <module name="spring-cxf-server-begin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ouyushan.cxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfServerLoggingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfServerLoggingApplication" />
+      <module name="spring-cxf-server-logging" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.ouyushan.cxf.*" />
@@ -406,6 +254,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SpringCxfClientLoggingApplication" />
+        <item itemvalue="Application.SpringCxfServerLoggingApplication" />
         <item itemvalue="Application.SpringCxfClientBeginApplication" />
         <item itemvalue="Application.SpringCxfServerBeginApplication" />
       </list>
@@ -460,6 +310,14 @@
       <workItem from="1606298177182" duration="4581000" />
       <workItem from="1606359073052" duration="81000" />
     </task>
+    <task id="LOCAL-00001" summary="spring boot cxf begin">
+      <created>1606382288788</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606382288788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,6 +347,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring boot cxf begin" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot cxf begin" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1602579307757">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -514,6 +376,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="559" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604751830332" />
+    <state x="1238" y="246" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606391518452">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1238" y="246" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606391518452" />
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604750513851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -526,38 +392,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606373355802" />
-    <state width="1232" height="226" key="GridCell.Tab.0.bottom" timestamp="1606381816139">
+    <state width="1877" height="658" key="GridCell.Tab.0.bottom" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606381816139" />
-    <state width="1232" height="226" key="GridCell.Tab.0.center" timestamp="1606381816139">
+    <state width="1877" height="658" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.0.center" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606381816139" />
-    <state width="1232" height="226" key="GridCell.Tab.0.left" timestamp="1606381816138">
+    <state width="1877" height="658" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.0.left" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606381816138" />
-    <state width="1232" height="226" key="GridCell.Tab.0.right" timestamp="1606381816139">
+    <state width="1877" height="658" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.0.right" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606381816139" />
-    <state width="1232" height="226" key="GridCell.Tab.1.bottom" timestamp="1606381815890">
+    <state width="1877" height="658" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.1.bottom" timestamp="1606393426347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606381815890" />
-    <state width="1232" height="226" key="GridCell.Tab.1.center" timestamp="1606381815890">
+    <state width="1877" height="658" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426347" />
+    <state width="1877" height="658" key="GridCell.Tab.1.center" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606381815890" />
-    <state width="1232" height="226" key="GridCell.Tab.1.left" timestamp="1606381815889">
+    <state width="1877" height="658" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.1.left" timestamp="1606393426346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606381815889" />
-    <state width="1232" height="226" key="GridCell.Tab.1.right" timestamp="1606381815890">
+    <state width="1877" height="658" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
+    <state width="1877" height="658" key="GridCell.Tab.1.right" timestamp="1606393426347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1232" height="226" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606381815890" />
+    <state width="1877" height="658" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426347" />
     <state width="1295" height="234" key="GridCell.Tab.2.bottom" timestamp="1606284273520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -574,6 +440,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1295" height="234" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606284273520" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1606391638426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606391638426" />
     <state x="468" y="160" key="Maven.ArtifactSearchDialog" timestamp="1604491932668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -586,6 +456,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="496" y="138" width="1192" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606372820081" />
+    <state x="919" y="280" key="Vcs.Push.Dialog.v2" timestamp="1606382290404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="919" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606382290404" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1604487886034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -610,10 +484,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602578115363" />
-    <state x="669" y="196" key="new project wizard" timestamp="1606298810280">
+    <state x="280" y="298" key="new project wizard" timestamp="1606390729985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="669" y="196" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606298810280" />
+    <state x="280" y="298" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606390729985" />
     <state x="848" y="523" key="scopes" timestamp="1604895298923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

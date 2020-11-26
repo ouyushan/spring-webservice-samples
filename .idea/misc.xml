@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cxf-server-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cxf-client-logging/pom.xml" />
       </list>
     </option>
   </component>
