@@ -9,13 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cxf-client" />
         <module name="spring-cxf-server" />
+        <module name="spring-cxf-server-begin" />
         <module name="spring-ws-server" />
         <module name="spring-ws-client" />
+        <module name="spring-cxf-client-begin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-cxf-client" target="1.8" />
+      <module name="spring-cxf-client-begin" target="1.8" />
       <module name="spring-cxf-server" target="1.8" />
+      <module name="spring-cxf-server-begin" target="1.8" />
       <module name="spring-webservice-samples" target="1.5" />
       <module name="spring-ws-client" target="1.8" />
       <module name="spring-ws-server" target="1.8" />
@@ -24,7 +28,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-cxf-client" options="-parameters" />
+      <module name="spring-cxf-client-begin" options="-parameters" />
       <module name="spring-cxf-server" options="-parameters" />
+      <module name="spring-cxf-server-begin" options="-parameters" />
       <module name="spring-ws-client" options="-parameters" />
       <module name="spring-ws-server" options="-parameters" />
     </option>
