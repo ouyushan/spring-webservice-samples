@@ -1,0 +1,18 @@
+server:
+  port: 7070
+  serviceUrl: https://localhost:8080/ws/user
+
+  #  开启SSL
+#  ssl:
+#    key-store: classpath:jks/webclient.p12
+#    key-store-password: ouyushan.pass
+#    key-password: ouyushan.pass
+#    trust-store: classpath:jks/webserver.keystore
+#    trust-store-password: ouyushan.pass
+
+client:
+  keystore-alias: webclient
+  key-store: classpath:jks/webclient.p12
+  truststore-alias: webserver
+  trust-store: classpath:jks/webserver.keystore
+  store-password: ouyushan.pass

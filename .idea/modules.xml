@@ -5,9 +5,15 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-client/spring-cxf-client.iml" filepath="$PROJECT_DIR$/spring-cxf-client/spring-cxf-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-client-begin/spring-cxf-client-begin.iml" filepath="$PROJECT_DIR$/spring-cxf-client-begin/spring-cxf-client-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-client-logging/spring-cxf-client-logging.iml" filepath="$PROJECT_DIR$/spring-cxf-client-logging/spring-cxf-client-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-client-mutual-signature/spring-cxf-client-mutual-signature.iml" filepath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/spring-cxf-client-mutual-signature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-client-signature/spring-cxf-client-signature.iml" filepath="$PROJECT_DIR$/spring-cxf-client-signature/spring-cxf-client-signature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-client-ssl/spring-cxf-client-ssl.iml" filepath="$PROJECT_DIR$/spring-cxf-client-ssl/spring-cxf-client-ssl.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-server/spring-cxf-server.iml" filepath="$PROJECT_DIR$/spring-cxf-server/spring-cxf-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-server-begin/spring-cxf-server-begin.iml" filepath="$PROJECT_DIR$/spring-cxf-server-begin/spring-cxf-server-begin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cxf-server-logging/spring-cxf-server-logging.iml" filepath="$PROJECT_DIR$/spring-cxf-server-logging/spring-cxf-server-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-server-mutual-signature/spring-cxf-server-mutual-signature.iml" filepath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/spring-cxf-server-mutual-signature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-server-signature/spring-cxf-server-signature.iml" filepath="$PROJECT_DIR$/spring-cxf-server-signature/spring-cxf-server-signature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cxf-server-ssl/spring-cxf-server-ssl.iml" filepath="$PROJECT_DIR$/spring-cxf-server-ssl/spring-cxf-server-ssl.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-webservice-samples.iml" filepath="$PROJECT_DIR$/.idea/spring-webservice-samples.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-ws-client/spring-ws-client.iml" filepath="$PROJECT_DIR$/spring-ws-client/spring-ws-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-ws-server/spring-ws-server.iml" filepath="$PROJECT_DIR$/spring-ws-server/spring-ws-server.iml" />

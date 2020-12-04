@@ -11,7 +11,7 @@
 	<groupId>org.ouyushan</groupId>
 	<artifactId>spring-cxf-server-logging</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>spring-cxf-server-logging</name>
 	<description>CXF project for Spring Boot</description>
 
 	<properties>

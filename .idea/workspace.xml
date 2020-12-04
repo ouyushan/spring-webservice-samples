@@ -5,13 +5,16 @@
   </component>
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
-      <module name="spring-ws-cxf-client" />
-      <module name="spring-ws-cxf-server" />
-      <module name="spring-ws-samples" />
-      <module name="spring-ws-cxf-client (1)" />
-      <module name="spring-ws-cxf-client (2)" />
-      <module name="spring-ws-client" />
-      <module name="spring-ws-server" />
+      <module name="spring-cxf-client-begin" />
+      <module name="spring-cxf-server-begin" />
+      <module name="spring-cxf-client-logging" />
+      <module name="spring-cxf-server-logging" />
+      <module name="spring-cxf-client-ssl" />
+      <module name="spring-cxf-server-ssl" />
+      <module name="spring-cxf-client-signature" />
+      <module name="spring-cxf-server-signature" />
+      <module name="spring-cxf-client-mutual-signature" />
+      <module name="spring-cxf-server-mutual-signature" />
     </loaded-modules>
   </component>
   <component name="BranchesTreeState">
@@ -40,38 +43,150 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76e3f41a-3f5d-4cfc-b494-8719b9133548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_features_logging_3_4_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-client-logging/src/main/resources/wsdl/user.wsdl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/SpringCxfServerLoggingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cxf-server-logging/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_4_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_shibboleth_utilities_java_support_7_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_security_saml_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_cxf_cxf_rt_ws_security_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_javamail_geronimo_javamail_1_4_mail_1_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_santuario_xmlsec_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_bindings_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_policy_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_common_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_dom_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_policy_stax_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_wss4j_wss4j_ws_security_stax_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_64.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_cryptacular_cryptacular_1_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ehcache_ehcache_3_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jasypt_jasypt_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_core_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_profile_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_saml_impl_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_security_impl_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_soap_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_impl_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xacml_saml_impl_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_api_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opensaml_opensaml_xmlsec_impl_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ClientPasswordCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/component/ClientPasswordCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/server_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/server_trust.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/resources/wsdl/user.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/component/ClientPasswordCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/client_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/server_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-signature/src/main/resources/wsdl/user.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/service/UserFacadeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUserList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUserListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUserName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUserNameResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/GetUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/UserService_Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java/org/ouyushan/cxf/ws/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-client-ssl/src/main/resources/wsdl/user.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java/org/ouyushan/cxf/component/ServerPasswordCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/server_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/resources/server_trust.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/java/org/ouyushan/cxf/component/ServerPasswordCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/client_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources/server_sign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/java/org/ouyushan/cxf/config/CxfServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/java/org/ouyushan/cxf/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/java/org/ouyushan/cxf/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/java/org/ouyushan/cxf/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/resources/jks/webclient.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/resources/jks/webclient.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/resources/jks/webserver.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-cxf-server-ssl/src/main/resources/jks/webserver.keystore.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cxf-client-logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cxf-client-logging/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cxf-server-logging/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cxf-server-logging/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +211,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Programs\apache\maven\apache-maven-repository" />
-        <option name="mavenHome" value="D:\Programs\apache\maven\apache-maven-3.6.2" />
-        <option name="userSettingsFile" value="D:\Programs\apache\maven\apache-maven-3.6.2\conf\settings.xml" />
+        <option name="mavenHome" value="D:\Programs\apache\maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Programs\apache\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -126,28 +241,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cxf-server-logging/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-cxf-server-signature/src/main/resources" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-logging\src\main\resources" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-logging\src\main\resources" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-logging\src\main\java\org\ouyushan\cxf" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-logging\src\main\java\org\ouyushan\cxf" />
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-begin\src\main\java\org\ouyushan\cxf" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-signature\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-signature\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-mutual-signature\src\main\java\org\ouyushan\cxf" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-mutual-signature\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-mutual-signature\src\test\java\org\ouyushan\cxf" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.ouyushan.cxf.component" />
       <recent name="org.ouyushan.spring.cxf.entity" />
       <recent name="org.ouyushan.cxf.client.component" />
       <recent name="org.ouyushan.cxf.server.component" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\WorkSpace\Idea\github\cxf\spring-ws-samples\spring-cxf-server\src\main\resources\jks" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-client-ssl\src\main\resources" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-ssl\src\test\java\org\ouyushan\cxf" />
+      <recent name="D:\WorkSpace\Idea\github\cxf\spring-webservice-samples\spring-cxf-server-ssl\src\main\java\org\ouyushan\cxf" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +275,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SpringCxfClientLoggingApplication">
+  <component name="RunManager" selected="Spring Boot.SpringCxfClientSignatureApplication">
     <configuration name="SpringCxfClientBeginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfClientBeginApplication" />
       <module name="spring-cxf-client-begin" />
@@ -184,19 +302,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCxfServerBeginApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfServerBeginApplication" />
-      <module name="spring-cxf-server-begin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ouyushan.cxf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringCxfServerLoggingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.ouyushan.cxf.SpringCxfServerLoggingApplication" />
       <module name="spring-cxf-server-logging" />
@@ -210,9 +315,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCxfClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cxf-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.client.SpringCxfClientApplication" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,44 +335,111 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCxfServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cxf-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.server.SpringCxfServerApplication" />
+    <configuration name="SpringCxfClientLoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-client-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfClientLoggingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfClientMutualSignatureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-client-mutual-signature" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfClientMutualSignatureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfClientSignatureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-client-signature" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfClientSignatureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfClientSslApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cxf-client-ssl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ouyushan.cxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfClientSslApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringCxfServerBeginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cxf-server-begin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.spring.cxf.SpringCxfServerBeginApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfServerBeginApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringWsClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-ws-client" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.ws.client.SpringWsClientApplication" />
+    <configuration name="SpringCxfServerLoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-server-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfServerLoggingApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringWsServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-ws-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.ws.server.SpringWsServerApplication" />
+    <configuration name="SpringCxfServerMutualSignatureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-server-mutual-signature" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouysuhan.cxf.SpringCxfServerMutualSignatureApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCxfServerSignatureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cxf-server-signature" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfServerSignatureApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCxfServerSslApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spring-cxf-server-ssl" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ouyushan.cxf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.ouyushan.cxf.SpringCxfServerSslApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringCxfClientBeginApplication" />
+      <item itemvalue="Application.SpringCxfClientLoggingApplication" />
+      <item itemvalue="Application.SpringCxfServerLoggingApplication" />
+      <item itemvalue="Spring Boot.SpringCxfServerLoggingApplication" />
+      <item itemvalue="Spring Boot.SpringCxfClientBeginApplication" />
+      <item itemvalue="Spring Boot.SpringCxfServerBeginApplication" />
+      <item itemvalue="Spring Boot.SpringCxfClientLoggingApplication" />
+      <item itemvalue="Spring Boot.SpringCxfServerSignatureApplication" />
+      <item itemvalue="Spring Boot.SpringCxfClientSignatureApplication" />
+      <item itemvalue="Spring Boot.SpringCxfClientMutualSignatureApplication" />
+      <item itemvalue="Spring Boot.SpringCxfServerMutualSignatureApplication" />
+      <item itemvalue="Spring Boot.SpringCxfServerSslApplication" />
+      <item itemvalue="Spring Boot.SpringCxfClientSslApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringCxfClientSslApplication" />
+        <item itemvalue="Spring Boot.SpringCxfServerSslApplication" />
         <item itemvalue="Application.SpringCxfClientLoggingApplication" />
         <item itemvalue="Application.SpringCxfServerLoggingApplication" />
         <item itemvalue="Application.SpringCxfClientBeginApplication" />
-        <item itemvalue="Application.SpringCxfServerBeginApplication" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -309,6 +487,10 @@
       <workItem from="1606268049108" duration="5717000" />
       <workItem from="1606298177182" duration="4581000" />
       <workItem from="1606359073052" duration="81000" />
+      <workItem from="1606974427119" duration="792000" />
+      <workItem from="1606981823051" duration="15239000" />
+      <workItem from="1607049573772" duration="13768000" />
+      <workItem from="1607073563286" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="spring boot cxf begin">
       <created>1606382288788</created>
@@ -317,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606382288788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring boot cxf logging">
+      <created>1606394435299</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606394435299</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +538,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spring boot cxf begin" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring boot cxf begin" />
+    <MESSAGE value="spring boot cxf logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring boot cxf logging" />
   </component>
   <component name="WindowStateProjectService">
     <state x="842" y="382" key="#Notifications" timestamp="1602579307757">
@@ -360,10 +550,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604893160658" />
-    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606180929483">
+    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607073891137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606180929483" />
+    <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607073891137" />
     <state x="628" y="348" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604564459169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,58 +578,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1017" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1604909445462" />
-    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl" timestamp="1606373355802">
+    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl" timestamp="1607066022233">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606373355802" />
-    <state width="1877" height="658" key="GridCell.Tab.0.bottom" timestamp="1606393426346">
+    <state x="886" y="257" width="552" height="569" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607066022233" />
+    <state width="1545" height="517" key="GridCell.Tab.0.bottom" timestamp="1607075738492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.0.center" timestamp="1606393426346">
+    <state width="1545" height="517" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607075738492" />
+    <state width="1545" height="517" key="GridCell.Tab.0.center" timestamp="1607075738492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.0.left" timestamp="1606393426346">
+    <state width="1545" height="517" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607075738492" />
+    <state width="1545" height="517" key="GridCell.Tab.0.left" timestamp="1607075738492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.0.right" timestamp="1606393426346">
+    <state width="1545" height="517" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607075738492" />
+    <state width="1545" height="517" key="GridCell.Tab.0.right" timestamp="1607075738492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.1.bottom" timestamp="1606393426347">
+    <state width="1545" height="517" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607075738492" />
+    <state width="1545" height="277" key="GridCell.Tab.1.bottom" timestamp="1607075715151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426347" />
-    <state width="1877" height="658" key="GridCell.Tab.1.center" timestamp="1606393426346">
+    <state width="1545" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715151" />
+    <state width="1545" height="277" key="GridCell.Tab.1.center" timestamp="1607075715151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.1.left" timestamp="1606393426346">
+    <state width="1545" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715151" />
+    <state width="1545" height="277" key="GridCell.Tab.1.left" timestamp="1607075715151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426346" />
-    <state width="1877" height="658" key="GridCell.Tab.1.right" timestamp="1606393426347">
+    <state width="1545" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715151" />
+    <state width="1545" height="277" key="GridCell.Tab.1.right" timestamp="1607075715151">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="658" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606393426347" />
-    <state width="1295" height="234" key="GridCell.Tab.2.bottom" timestamp="1606284273520">
+    <state width="1545" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715151" />
+    <state width="1545" height="375" key="GridCell.Tab.2.bottom" timestamp="1607075715069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1295" height="234" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606284273520" />
-    <state width="1295" height="234" key="GridCell.Tab.2.center" timestamp="1606284273520">
+    <state width="1545" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715069" />
+    <state width="1545" height="375" key="GridCell.Tab.2.center" timestamp="1607075715068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1295" height="234" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606284273520" />
-    <state width="1295" height="234" key="GridCell.Tab.2.left" timestamp="1606284273520">
+    <state width="1545" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715068" />
+    <state width="1545" height="375" key="GridCell.Tab.2.left" timestamp="1607075715068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1295" height="234" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606284273520" />
-    <state width="1295" height="234" key="GridCell.Tab.2.right" timestamp="1606284273520">
+    <state width="1545" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715068" />
+    <state width="1545" height="375" key="GridCell.Tab.2.right" timestamp="1607075715068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1295" height="234" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606284273520" />
+    <state width="1545" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607075715068" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1606391638426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -448,18 +638,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="468" y="160" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604491932668" />
-    <state x="752" y="223" key="NewModule_or_Project.wizard" timestamp="1606274692444">
+    <state x="752" y="223" key="NewModule_or_Project.wizard" timestamp="1606572015649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="752" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606274692444" />
-    <state x="496" y="138" width="1192" height="711" key="SettingsEditor" timestamp="1606372820081">
+    <state x="752" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606572015649" />
+    <state x="496" y="138" width="1192" height="711" key="SettingsEditor" timestamp="1607050585606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="138" width="1192" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606372820081" />
-    <state x="919" y="280" key="Vcs.Push.Dialog.v2" timestamp="1606382290404">
+    <state x="496" y="138" width="1192" height="711" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607050585606" />
+    <state x="919" y="280" key="Vcs.Push.Dialog.v2" timestamp="1606394437208">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="919" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606382290404" />
+    <state x="919" y="280" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606394437208" />
     <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1604487886034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,26 +666,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="483" y="249" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1604912772965" />
-    <state x="773" y="180" width="979" height="751" key="find.popup" timestamp="1606381941115">
+    <state x="773" y="180" width="979" height="751" key="find.popup" timestamp="1607073612449">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="773" y="180" width="979" height="751" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606381941115" />
+    <state x="773" y="180" width="979" height="751" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607073612449" />
     <state x="485" y="292" key="git4idea.merge.GitPullDialog" timestamp="1602578115363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="485" y="292" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602578115363" />
-    <state x="280" y="298" key="new project wizard" timestamp="1606390729985">
+    <state x="366" y="247" width="1251" height="662" key="new project wizard" timestamp="1607050074801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="280" y="298" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1606390729985" />
+    <state x="366" y="247" width="1251" height="662" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1607050074801" />
     <state x="848" y="523" key="scopes" timestamp="1604895298923">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="523" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1604895298923" />
-    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup" timestamp="1606381628461">
+    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup" timestamp="1606997448605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606381628461" />
+    <state x="707" y="279" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606997448605" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -511,29 +701,9 @@
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/security/cert/CertPathBuilder.java</url>
-          <line>279</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
-          <line>305</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
           <line>182</line>
           <option name="timeStamp" value="134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
-          <line>216</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
-          <line>295</line>
-          <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/jsse.jar!/sun/security/ssl/X509TrustManagerImpl.class</url>
@@ -561,11 +731,6 @@
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/validator/PKIXValidator.class</url>
-          <line>307</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://C:/Program Files/Java/jdk1.8.0_271/jre/lib/rt.jar!/sun/security/provider/certpath/SunCertPathBuilder.class</url>
           <line>53</line>
           <option name="timeStamp" value="151" />
@@ -574,6 +739,21 @@
           <url>jar://$PROJECT_DIR$/../../../../Programs/apache/maven/apache-maven-repository/org/apache/cxf/cxf-rt-transports-http/3.4.0/cxf-rt-transports-http-3.4.0-sources.jar!/org/apache/cxf/transport/https/httpclient/DefaultHostnameVerifier.java</url>
           <line>89</line>
           <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../../Programs/apache/maven/apache-maven-repository/org/apache/wss4j/wss4j-ws-security-dom/2.3.0/wss4j-ws-security-dom-2.3.0-sources.jar!/org/apache/wss4j/dom/message/WSSecSignature.java</url>
+          <line>867</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-cxf-client-signature/src/main/java/org/ouyushan/cxf/config/CxfClientConfig.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="165" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
