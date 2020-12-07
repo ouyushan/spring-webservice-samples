@@ -1,6 +1,8 @@
 package org.ouyushan.cxf.config;
 
 import org.apache.cxf.Bus;
+import org.apache.cxf.binding.soap.saaj.SAAJInInterceptor;
+import org.apache.cxf.binding.soap.saaj.SAAJOutInterceptor;
 import org.apache.cxf.ext.logging.LoggingInInterceptor;
 import org.apache.cxf.ext.logging.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.EndpointImpl;
@@ -56,8 +58,7 @@ public class CxfServerConfig {
         // add the WSS4J IN interceptor to verify the signature on the response message
         endpoint.getInInterceptors().add(serverWssIn());
         // add the WSS4J OUT interceptor to sign the request message
-        // endpoint.getOutInterceptors().add(serverWssOut());
-
+        endpoint.getOutInterceptors().add(serverWssOut());
         return endpoint;
     }
 
