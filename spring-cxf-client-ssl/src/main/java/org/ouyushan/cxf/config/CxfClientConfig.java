@@ -49,7 +49,6 @@ public class CxfClientConfig {
     @Value("${client.store-password}")
     private String storePassword;
 
-
     @Value("${server.serviceUrl}")
     private String serviceUrl;
 
@@ -99,7 +98,6 @@ public class CxfClientConfig {
         return httpConduit;
     }
 
-
     @Bean
     public TLSClientParameters tlsClientParameters()
             throws Exception {
@@ -109,10 +107,10 @@ public class CxfClientConfig {
         tlsClientParameters.setSecureSocketProtocol("TLS");
         // should NOT be used in production
         tlsClientParameters.setDisableCNCheck(true);
-        // 设置信任证书
+        // 设置信任证书(对方证书)
         tlsClientParameters.setTrustManagers(trustManagers());
-        // 设置keystore
-        tlsClientParameters.setKeyManagers(keyManagers());
+        // 设置keystore(自己证书)
+        // tlsClientParameters.setKeyManagers(keyManagers());
         tlsClientParameters.setCipherSuitesFilter(cipherSuitesFilter());
 
         // 会覆盖setDisableCNCheck 或自定义HostnameVerifier
@@ -139,8 +137,6 @@ public class CxfClientConfig {
     }
 
     /**
-     * 测试
-     *
      * @return
      * @throws NoSuchAlgorithmException
      * @throws KeyStoreException
@@ -148,7 +144,7 @@ public class CxfClientConfig {
      * @throws IOException
      * @throws UnrecoverableKeyException
      */
-    @Bean
+/*    @Bean
     public KeyManager[] keyManagers()
             throws NoSuchAlgorithmException, KeyStoreException,
             IOException, UnrecoverableKeyException {
@@ -157,8 +153,7 @@ public class CxfClientConfig {
         keyManagerFactory.init(keyStore(), storePassword.toCharArray());
 
         return keyManagerFactory.getKeyManagers();
-    }
-
+    }*/
     @Bean
     public KeyStore trustStore() throws KeyStoreException, IOException {
         KeyStore trustStore = KeyStore.getInstance("PKCS12");
@@ -180,8 +175,8 @@ public class CxfClientConfig {
 
     @Bean
     public KeyStore keyStore() throws KeyStoreException, IOException {
-        KeyStore trustStore = KeyStore.getInstance("PKCS12");
 
+        KeyStore trustStore = KeyStore.getInstance("PKCS12");
         InputStream inputStream = keyStoreResource.getInputStream();
 
         try {
@@ -199,6 +194,7 @@ public class CxfClientConfig {
 
     @Bean
     public FiltersType cipherSuitesFilter() {
+
         FiltersType filter = new FiltersType();
         filter.getInclude().add("TLS_ECDHE_RSA_.*");
         filter.getInclude().add("TLS_DHE_RSA_.*");

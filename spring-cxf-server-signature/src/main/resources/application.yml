@@ -1,9 +1,8 @@
 server:
   port: 8080
   #  开启SSL
-  ssl:
-    enabled: true
-    key-store: classpath:jks/webserver.keystore
-    key-store-password: ouyushan.pass
-    key-alias: webserver
-    key-password: ouyushan.pass
+    #    enabled: true
+    #    key-store: classpath:jks/webserver.keystore
+    #    key-store-password: ouyushan.pass
+  key-alias: webclient
+#    key-password: ouyushan.pass

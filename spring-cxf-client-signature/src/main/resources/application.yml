@@ -1,6 +1,6 @@
 server:
   port: 7070
-  serviceUrl: https://localhost:8080/ws/user
+  serviceUrl: http://localhost:8080/ws/user
 
   #  开启SSL
 #  ssl:

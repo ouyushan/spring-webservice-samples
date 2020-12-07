@@ -1,5 +1,6 @@
 package org.ouyushan.cxf.component;
 
+import org.apache.wss4j.common.ext.WSPasswordCallback;
 import org.springframework.stereotype.Component;
 
 import javax.security.auth.callback.Callback;
@@ -22,7 +23,7 @@ public class ServerPasswordCallback implements CallbackHandler {
      */
     @Override
     public void handle(Callback[] callbacks) {
-//        WSPasswordCallback callback = (WSPasswordCallback) callbacks[0];
-//        callback.setPassword("ouyushan.pass");
+        WSPasswordCallback callback = (WSPasswordCallback) callbacks[0];
+        callback.setPassword("ouyushan.pass");
     }
 }

@@ -1,15 +1,9 @@
 package org.ouyushan.cxf.config;
 
 import org.apache.cxf.Bus;
-import org.apache.cxf.binding.soap.saaj.SAAJInInterceptor;
-import org.apache.cxf.binding.soap.saaj.SAAJOutInterceptor;
-import org.apache.cxf.endpoint.Client;
-import org.apache.cxf.endpoint.Server;
 import org.apache.cxf.ext.logging.LoggingInInterceptor;
 import org.apache.cxf.ext.logging.LoggingOutInterceptor;
-import org.apache.cxf.frontend.ClientProxy;
 import org.apache.cxf.jaxws.EndpointImpl;
-import org.apache.cxf.transport.http.HTTPConduit;
 import org.apache.cxf.transport.servlet.CXFServlet;
 import org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor;
 import org.apache.cxf.ws.security.wss4j.WSS4JOutInterceptor;
@@ -36,7 +30,7 @@ import java.util.Map;
 @Configuration
 public class CxfServerConfig {
 
-    @Value("${server.ssl.key-alias}")
+    @Value("${server.key-alias}")
     private String keystoreAlias;
 
     @Resource
@@ -62,7 +56,7 @@ public class CxfServerConfig {
         // add the WSS4J IN interceptor to verify the signature on the response message
         endpoint.getInInterceptors().add(serverWssIn());
         // add the WSS4J OUT interceptor to sign the request message
-        endpoint.getOutInterceptors().add(serverWssOut());
+        // endpoint.getOutInterceptors().add(serverWssOut());
 
         return endpoint;
     }
@@ -88,12 +82,12 @@ public class CxfServerConfig {
         serverInProps.put(WSHandlerConstants.ACTION,
                 WSHandlerConstants.TIMESTAMP + " "
                         + WSHandlerConstants.SIGNATURE);
-//        serverInProps.put(WSHandlerConstants.USER, keystoreAlias);
-//        serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
-//                ServerPasswordCallback.class.getName());
+        serverInProps.put(WSHandlerConstants.SIGNATURE_USER, keystoreAlias);
+        serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
+                ServerPasswordCallback.class.getName());
         // 验签
         serverInProps.put(WSHandlerConstants.SIG_VER_PROP_FILE,
-                "client_sign.properties");
+                "server_trust.properties");
 
         return serverInProps;
     }
@@ -109,7 +103,7 @@ public class CxfServerConfig {
                 ServerPasswordCallback.class.getName());
         // 签名
         serverOutProps.put(WSHandlerConstants.SIG_PROP_FILE,
-                "server_sign.properties");
+                "server_key.properties");
         return serverOutProps;
     }
 
