@@ -4,13 +4,11 @@
     <file url="file://$PROJECT_DIR$/spring-cxf-client-begin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-client-begin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-client-logging/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cxf-client-mutual-signature/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-client-signature/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-client-ssl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-begin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-begin/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-logging/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/spring-cxf-server-mutual-signature/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-signature/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cxf-server-ssl/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

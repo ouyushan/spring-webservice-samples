@@ -9,14 +9,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cxf-server-signature" />
         <module name="spring-cxf-server-ssl" />
-        <module name="spring-cxf-client-mutual-signature" />
+        <module name="spring-cxf-client-begin" />
         <module name="spring-cxf-client-signature" />
         <module name="spring-cxf-server-begin" />
         <module name="spring-cxf-server-logging" />
-        <module name="spring-cxf-client-ssl" />
-        <module name="spring-cxf-client-begin" />
         <module name="spring-cxf-client-logging" />
-        <module name="spring-cxf-server-mutual-signature" />
+        <module name="spring-cxf-client-ssl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,7 +29,7 @@
       <module name="spring-cxf-server-mutual-signature" target="1.8" />
       <module name="spring-cxf-server-signature" target="1.8" />
       <module name="spring-cxf-server-ssl" target="1.8" />
-      <module name="spring-webservice-samples" target="1.8" />
+      <module name="spring-webservice-samples" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
