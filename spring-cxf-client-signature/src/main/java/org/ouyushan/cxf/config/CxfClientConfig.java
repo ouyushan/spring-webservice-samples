@@ -1,7 +1,5 @@
 package org.ouyushan.cxf.config;
 
-import org.apache.cxf.binding.soap.saaj.SAAJInInterceptor;
-import org.apache.cxf.binding.soap.saaj.SAAJOutInterceptor;
 import org.apache.cxf.ext.logging.LoggingInInterceptor;
 import org.apache.cxf.ext.logging.LoggingOutInterceptor;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
@@ -35,16 +33,13 @@ public class CxfClientConfig {
     @Bean
     public UserService userService() {
 
-        JaxWsProxyFactoryBean jaxWsProxyFactoryBean =
-                new JaxWsProxyFactoryBean();
+        JaxWsProxyFactoryBean jaxWsProxyFactoryBean = new JaxWsProxyFactoryBean();
         jaxWsProxyFactoryBean.setServiceClass(UserService.class);
         jaxWsProxyFactoryBean.setAddress(serviceUrl);
 
         // log the request and response messages
-        jaxWsProxyFactoryBean.getInInterceptors()
-                .add(loggingInInterceptor());
-        jaxWsProxyFactoryBean.getOutInterceptors()
-                .add(loggingOutInterceptor());
+        jaxWsProxyFactoryBean.getInInterceptors().add(loggingInInterceptor());
+        jaxWsProxyFactoryBean.getOutInterceptors().add(loggingOutInterceptor());
 
         // add the WSS4J OUT interceptor to sign the request message
         jaxWsProxyFactoryBean.getOutInterceptors().add(clientWssOut());
@@ -71,21 +66,20 @@ public class CxfClientConfig {
 
     @Bean
     public Map<String, Object> clientOutProps() {
+
         Map<String, Object> clientOutProps = new HashMap<>();
-        clientOutProps.put(WSHandlerConstants.ACTION,
-                WSHandlerConstants.TIMESTAMP + " "
-                        + WSHandlerConstants.SIGNATURE);
+        clientOutProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
         clientOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
-        clientOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
-                ClientPasswordCallback.class.getName());
+        clientOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ClientPasswordCallback.class.getName());
         // 签名
-        clientOutProps.put(WSHandlerConstants.SIG_PROP_FILE,
-                "client_key.properties");
+        clientOutProps.put(WSHandlerConstants.SIG_PROP_FILE, "client_key.properties");
+
         return clientOutProps;
     }
 
     @Bean
     public WSS4JOutInterceptor clientWssOut() {
+
         WSS4JOutInterceptor clientWssOut = new WSS4JOutInterceptor();
         clientWssOut.setProperties(clientOutProps());
 
@@ -94,23 +88,21 @@ public class CxfClientConfig {
 
     @Bean
     public Map<String, Object> clientInProps() {
+
         Map<String, Object> clientInProps = new HashMap<>();
-        clientInProps.put(WSHandlerConstants.ACTION,
-                WSHandlerConstants.TIMESTAMP + " "
-                        + WSHandlerConstants.SIGNATURE);
+        clientInProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
         clientInProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
-        clientInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
-                ClientPasswordCallback.class.getName());
+        clientInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ClientPasswordCallback.class.getName());
 
         // 验签
-        clientInProps.put(WSHandlerConstants.SIG_PROP_FILE,
-                "client_trust.properties");
+        clientInProps.put(WSHandlerConstants.SIG_PROP_FILE, "client_trust.properties");
 
         return clientInProps;
     }
 
     @Bean
     public WSS4JOutInterceptor clientWssIn() {
+
         WSS4JOutInterceptor clientWssIn = new WSS4JOutInterceptor();
         clientWssIn.setProperties(clientInProps());
 

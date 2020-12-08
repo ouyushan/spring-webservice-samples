@@ -48,8 +48,7 @@ public class CxfServerConfig {
 
     @Bean
     public Endpoint userEndpoint() {
-        EndpointImpl endpoint =
-                new EndpointImpl(bus, userService);
+        EndpointImpl endpoint = new EndpointImpl(bus, userService);
         endpoint.publish("/user");
         // log the request and response messages
         endpoint.getInInterceptors().add(loggingInInterceptor());
@@ -79,16 +78,13 @@ public class CxfServerConfig {
      */
     @Bean
     public Map<String, Object> serverInProps() {
+
         Map<String, Object> serverInProps = new HashMap<>();
-        serverInProps.put(WSHandlerConstants.ACTION,
-                WSHandlerConstants.TIMESTAMP + " "
-                        + WSHandlerConstants.SIGNATURE);
+        serverInProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
         serverInProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
-        serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
-                ServerPasswordCallback.class.getName());
+        serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ServerPasswordCallback.class.getName());
         // 验签
-        serverInProps.put(WSHandlerConstants.SIG_PROP_FILE,
-                "server_trust.properties");
+        serverInProps.put(WSHandlerConstants.SIG_PROP_FILE, "server_trust.properties");
 
         return serverInProps;
     }
@@ -96,20 +92,17 @@ public class CxfServerConfig {
     @Bean
     public Map<String, Object> serverOutProps() {
         Map<String, Object> serverOutProps = new HashMap<>();
-        serverOutProps.put(WSHandlerConstants.ACTION,
-                WSHandlerConstants.TIMESTAMP + " "
-                        + WSHandlerConstants.SIGNATURE);
+        serverOutProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
         serverOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
-        serverOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
-                ServerPasswordCallback.class.getName());
+        serverOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ServerPasswordCallback.class.getName());
         // 签名
-        serverOutProps.put(WSHandlerConstants.SIG_PROP_FILE,
-                "server_key.properties");
+        serverOutProps.put(WSHandlerConstants.SIG_PROP_FILE, "server_key.properties");
         return serverOutProps;
     }
 
     @Bean
     public WSS4JInInterceptor serverWssIn() {
+
         WSS4JInInterceptor serverWssIn = new WSS4JInInterceptor();
         serverWssIn.setProperties(serverInProps());
 
@@ -118,6 +111,7 @@ public class CxfServerConfig {
 
     @Bean
     public WSS4JOutInterceptor serverWssOut() {
+
         WSS4JOutInterceptor serverWssOut = new WSS4JOutInterceptor();
         serverWssOut.setProperties(serverOutProps());
 
