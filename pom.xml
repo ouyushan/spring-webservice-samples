@@ -22,8 +22,6 @@
         <module>spring-cxf-server-ssl</module>
         <module>spring-cxf-client-signature</module>
         <module>spring-cxf-server-signature</module>
-        <module>spring-cxf-client-mutual-signature</module>
-        <module>spring-cxf-server-mutual-signature</module>
     </modules>
 
 </project>

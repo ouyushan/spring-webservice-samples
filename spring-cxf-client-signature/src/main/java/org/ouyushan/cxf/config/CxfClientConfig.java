@@ -24,8 +24,11 @@ import java.util.Map;
 public class CxfClientConfig {
 
 
-    @Value("${client.keystore-alias}")
-    private String keystoreAlias;
+    @Value("${client.keyAlias}")
+    private String keyAlias;
+
+    @Value("${client.trustAlias}")
+    private String trustAlias;
 
     @Value("${server.serviceUrl}")
     private String serviceUrl;
@@ -69,7 +72,7 @@ public class CxfClientConfig {
 
         Map<String, Object> clientOutProps = new HashMap<>();
         clientOutProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
-        clientOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
+        clientOutProps.put(WSHandlerConstants.SIGNATURE_USER, keyAlias);
         clientOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ClientPasswordCallback.class.getName());
         // 签名
         clientOutProps.put(WSHandlerConstants.SIG_PROP_FILE, "client_key.properties");
@@ -91,7 +94,7 @@ public class CxfClientConfig {
 
         Map<String, Object> clientInProps = new HashMap<>();
         clientInProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
-        clientInProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
+        clientInProps.put(WSHandlerConstants.SIGNATURE_USER, trustAlias);
         clientInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ClientPasswordCallback.class.getName());
 
         // 验签

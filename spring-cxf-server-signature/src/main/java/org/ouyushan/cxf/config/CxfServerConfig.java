@@ -32,8 +32,11 @@ import java.util.Map;
 @Configuration
 public class CxfServerConfig {
 
-    @Value("${server.key-alias}")
-    private String keystoreAlias;
+    @Value("${client.keyAlias}")
+    private String keyAlias;
+
+    @Value("${client.trustAlias}")
+    private String trustAlias;
 
     @Resource
     private Bus bus;
@@ -81,7 +84,7 @@ public class CxfServerConfig {
 
         Map<String, Object> serverInProps = new HashMap<>();
         serverInProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
-        serverInProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
+        serverInProps.put(WSHandlerConstants.SIGNATURE_USER, keyAlias);
         serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ServerPasswordCallback.class.getName());
         // 验签
         serverInProps.put(WSHandlerConstants.SIG_PROP_FILE, "server_trust.properties");
@@ -93,7 +96,7 @@ public class CxfServerConfig {
     public Map<String, Object> serverOutProps() {
         Map<String, Object> serverOutProps = new HashMap<>();
         serverOutProps.put(WSHandlerConstants.ACTION, /*WSHandlerConstants.TIMESTAMP + " " +*/ WSHandlerConstants.SIGNATURE);
-        serverOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
+        serverOutProps.put(WSHandlerConstants.SIGNATURE_USER, trustAlias);
         serverOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS, ServerPasswordCallback.class.getName());
         // 签名
         serverOutProps.put(WSHandlerConstants.SIG_PROP_FILE, "server_key.properties");
