@@ -8,23 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cxf-server-signature" />
-        <module name="spring-cxf-client" />
         <module name="spring-cxf-server-ssl" />
         <module name="spring-cxf-client-mutual-signature" />
         <module name="spring-cxf-client-signature" />
-        <module name="spring-cxf-server" />
         <module name="spring-cxf-server-begin" />
         <module name="spring-cxf-server-logging" />
-        <module name="spring-ws-server" />
         <module name="spring-cxf-client-ssl" />
-        <module name="spring-ws-client" />
         <module name="spring-cxf-client-begin" />
         <module name="spring-cxf-client-logging" />
         <module name="spring-cxf-server-mutual-signature" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-cxf-client" target="1.8" />
       <module name="spring-cxf-client-begin" target="1.8" />
       <module name="spring-cxf-client-logging" target="1.8" />
       <module name="spring-cxf-client-mutual-signature" target="1.8" />
@@ -36,27 +31,21 @@
       <module name="spring-cxf-server-mutual-signature" target="1.8" />
       <module name="spring-cxf-server-signature" target="1.8" />
       <module name="spring-cxf-server-ssl" target="1.8" />
-      <module name="spring-webservice-samples" target="1.5" />
-      <module name="spring-ws-client" target="1.8" />
-      <module name="spring-ws-server" target="1.8" />
+      <module name="spring-webservice-samples" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-cxf-client" options="-parameters" />
       <module name="spring-cxf-client-begin" options="-parameters" />
       <module name="spring-cxf-client-logging" options="-parameters" />
       <module name="spring-cxf-client-mutual-signature" options="-parameters" />
       <module name="spring-cxf-client-signature" options="-parameters" />
       <module name="spring-cxf-client-ssl" options="-parameters" />
-      <module name="spring-cxf-server" options="-parameters" />
       <module name="spring-cxf-server-begin" options="-parameters" />
       <module name="spring-cxf-server-logging" options="-parameters" />
       <module name="spring-cxf-server-mutual-signature" options="-parameters" />
       <module name="spring-cxf-server-signature" options="-parameters" />
       <module name="spring-cxf-server-ssl" options="-parameters" />
-      <module name="spring-ws-client" options="-parameters" />
-      <module name="spring-ws-server" options="-parameters" />
     </option>
   </component>
 </project>

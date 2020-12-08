@@ -48,10 +48,10 @@ public class CxfClientConfig {
 
         // add the WSS4J OUT interceptor to sign the request message
         jaxWsProxyFactoryBean.getOutInterceptors().add(clientWssOut());
-        jaxWsProxyFactoryBean.getOutInterceptors().add(new SAAJOutInterceptor());
+        //jaxWsProxyFactoryBean.getOutInterceptors().add(new SAAJOutInterceptor());
         // add the WSS4J IN interceptor to verify the signature on the response message
         jaxWsProxyFactoryBean.getInInterceptors().add(clientWssIn());
-        jaxWsProxyFactoryBean.getInInterceptors().add(new SAAJInInterceptor());
+        //jaxWsProxyFactoryBean.getInInterceptors().add(new SAAJInInterceptor());
 
         UserService userService = (UserService) jaxWsProxyFactoryBean.create();
 
@@ -75,7 +75,7 @@ public class CxfClientConfig {
         clientOutProps.put(WSHandlerConstants.ACTION,
                 WSHandlerConstants.TIMESTAMP + " "
                         + WSHandlerConstants.SIGNATURE);
-        clientOutProps.put(WSHandlerConstants.SIGNATURE_USER, keystoreAlias);
+        clientOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
         clientOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
                 ClientPasswordCallback.class.getName());
         // 签名
@@ -98,9 +98,11 @@ public class CxfClientConfig {
         clientInProps.put(WSHandlerConstants.ACTION,
                 WSHandlerConstants.TIMESTAMP + " "
                         + WSHandlerConstants.SIGNATURE);
-        clientInProps.put(WSHandlerConstants.USER, keystoreAlias);
+        clientInProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
         clientInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
                 ClientPasswordCallback.class.getName());
+
+        // 验签
         clientInProps.put(WSHandlerConstants.SIG_PROP_FILE,
                 "client_trust.properties");
 

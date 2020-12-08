@@ -83,11 +83,11 @@ public class CxfServerConfig {
         serverInProps.put(WSHandlerConstants.ACTION,
                 WSHandlerConstants.TIMESTAMP + " "
                         + WSHandlerConstants.SIGNATURE);
-        serverInProps.put(WSHandlerConstants.SIGNATURE_USER, keystoreAlias);
+        serverInProps.put(WSHandlerConstants.SIGNATURE_USER, "webclient");
         serverInProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
                 ServerPasswordCallback.class.getName());
         // 验签
-        serverInProps.put(WSHandlerConstants.SIG_VER_PROP_FILE,
+        serverInProps.put(WSHandlerConstants.SIG_PROP_FILE,
                 "server_trust.properties");
 
         return serverInProps;
@@ -99,7 +99,7 @@ public class CxfServerConfig {
         serverOutProps.put(WSHandlerConstants.ACTION,
                 WSHandlerConstants.TIMESTAMP + " "
                         + WSHandlerConstants.SIGNATURE);
-        serverOutProps.put(WSHandlerConstants.USER, keystoreAlias);
+        serverOutProps.put(WSHandlerConstants.SIGNATURE_USER, "webserver");
         serverOutProps.put(WSHandlerConstants.PW_CALLBACK_CLASS,
                 ServerPasswordCallback.class.getName());
         // 签名

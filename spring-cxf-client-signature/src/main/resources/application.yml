@@ -14,5 +14,5 @@ client:
   keystore-alias: webclient
   key-store: classpath:jks/webclient.p12
   truststore-alias: webserver
-  trust-store: classpath:jks/webserver.keystore
+  trust-store: classpath:jks/webserver.p12
   store-password: ouyushan.pass
